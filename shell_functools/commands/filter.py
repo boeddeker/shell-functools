@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-from ft.types import T_BOOL, T_ARRAY
-from ft.error import panic
-from ft.command import Command
+from shell_functools.utils.types import T_BOOL, T_ARRAY
+from shell_functools.utils.error import panic
+from shell_functools.utils.command import Command
 
 
 class Filter(Command):

@@ -1,13 +1,13 @@
 import sys
-import ft.termcolor
 import re
 
-from ft.types import TypedValue, T_ARRAY, T_PATH, T_STRING, T_INT, T_BOOL, T_VOID
+import shell_functools.utils.termcolor
+from shell_functools.utils.types import TypedValue, T_ARRAY, T_PATH, T_STRING, T_INT, T_BOOL, T_VOID
 
 
 def colored(inp, col):
     if sys.stdout.isatty():
-        return ft.termcolor.colored(inp, col)
+        return shell_functools.utils.termcolor.colored(inp, col)
     return str(inp)
 
 

@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-from ft.types import T_ARRAY
-from ft.internal import add_dynamic_type
-from ft.command import Command
-from ft.error import panic
+from shell_functools.utils.types import T_ARRAY
+from shell_functools.utils.internal import add_dynamic_type
+from shell_functools.utils.command import Command
+from shell_functools.utils.error import panic
 
 
 class Foldl(Command):

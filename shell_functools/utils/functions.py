@@ -2,10 +2,10 @@ import inspect
 import os
 import subprocess
 
-from ft.types import T_STRING, T_ARRAY, T_BOOL, T_PATH, T_INT, T_VOID, TypeConversionError, \
+from shell_functools.utils.types import T_STRING, T_ARRAY, T_BOOL, T_PATH, T_INT, T_VOID, TypeConversionError, \
     dynamic_cast
-from ft.internal import TypedValue, add_dynamic_type
-from ft.error import panic
+from shell_functools.utils.internal import TypedValue, add_dynamic_type
+from shell_functools.utils.error import panic
 
 function_list = {}
 

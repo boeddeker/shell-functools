@@ -3,9 +3,9 @@ import argparse
 
 from functools import partial
 
-from ft.functions import function_list
-from ft.internal import add_dynamic_type, ftformat
-from ft.error import panic
+from shell_functools.utils.functions import function_list
+from shell_functools.utils.internal import add_dynamic_type, ftformat
+from shell_functools.utils.error import panic
 
 
 class Command:

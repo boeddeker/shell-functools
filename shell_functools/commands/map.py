@@ -1,5 +1,5 @@
-from ft.types import T_ARRAY
-from ft.command import Command
+from shell_functools.utils.types import T_ARRAY
+from shell_functools.utils.command import Command
 
 
 class Map(Command):

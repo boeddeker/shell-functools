@@ -1,5 +1,5 @@
-from ft.types import T_BOOL, T_INT, T_ARRAY, T_STRING
-from ft.internal import add_dynamic_type
+from shell_functools.utils.types import T_BOOL, T_INT, T_ARRAY, T_STRING
+from shell_functools.utils.internal import add_dynamic_type
 
 
 def test_add_dynamic_type():

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-from ft.types import T_VOID
-from ft.functions import function_list
-from ft.termcolor import colored
+from shell_functools.utils.types import T_VOID
+from shell_functools.utils.functions import function_list
+from shell_functools.utils.termcolor import colored
 
 type_color = {
     "String": "yellow",

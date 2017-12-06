@@ -1,5 +1,5 @@
 import sys
-from ft.termcolor import colored
+from shell_functools.utils.termcolor import colored
 
 
 def panic(msg):
