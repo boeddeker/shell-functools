@@ -10,6 +10,6 @@ def foldl():
     Foldl().run()
 
 
-def foldl():
+def map():
     from shell_functools.commands.map import Map
     Map().run()
